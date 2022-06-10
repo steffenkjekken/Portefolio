@@ -180,8 +180,12 @@ nav ul {
     justify-content: center;
     width: 100%;
     font-size: 5vw;
-    text-shadow: red 2px 5px;
+    text-shadow: #F63838 2px 5px;
     color: white;
+}
+
+.sr:hover {
+    text-shadow: #F63838 -2px -5px;
 }
 
 #nav-footer {
