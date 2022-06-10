@@ -30,6 +30,7 @@ h2 {
     font-family: "Crenzo";
     font-size: 36px;
     font-weight: 300;
+    color: #F63838;
 }
 
 h3 {
@@ -96,7 +97,7 @@ p.headertext {
     width: 100vw;
     background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
-    padding: 40px 0px 1000px 0px;
+    padding: 100px 0px 1000px 0px;
     left: 0;
     right: 0;
     top: 0;
@@ -194,10 +195,12 @@ nav ul {
 
 #nav-footer nav ul {
     margin: 40px 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #nav-footer nav li {
-    padding: 0 20px;
+    padding: 5px 20px;
 }
 
 .socials {
@@ -287,6 +290,15 @@ img {
 
 .text {
     padding-left: 10px;
+    width: 55%;
+}
+
+#nav-footer nav ul {
+    margin: 40px 50px;
+}
+
+#nav-footer nav li {
+    padding: 0 20px;
 }
 
 }
